@@ -5,3 +5,5 @@ transformers
 huggingface_hub
 pillow
 requests
+controlnet-aux
+timm

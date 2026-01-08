@@ -1,7 +1,7 @@
 # Flux2 Distributed Inference
 
-> **Unofficial multi-GPU (sharded/model-parallel) FLUX.2 inference using 🤗 Accelerate `device_map="auto"`.**  
-> Runs FLUX.2 locally by automatically sharding large components across multiple GPUs. Optional remote text encoder supported.
+**Unofficial multi-GPU (sharded/model-parallel) FLUX.2 inference using 🤗 Accelerate `device_map="auto"`.**  
+Runs FLUX.2 locally by automatically sharding large components across multiple GPUs. Optional remote text encoder supported.
 
 ---
 
@@ -32,10 +32,9 @@ git clone https://github.com/YigitEkin/flux2-distributed-inference.git
 cd flux2-distributed-inference
 
 # Install dependencies
-pip install torch accelerate diffusers transformers huggingface_hub pillow
-
-# (Optional) remote encoder support
-pip install requests
+conda create -n flux2dist python=3.10 -y
+conda activate flux2dist
+pip install -r requirements.txt
 
 # Login to Hugging Face (required for FLUX.2 model access)
 huggingface-cli login
