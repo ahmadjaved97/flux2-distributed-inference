@@ -1,0 +1,7 @@
+torch
+accelerate
+diffusers
+transformers
+huggingface_hub
+pillow
+requests
