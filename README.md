@@ -28,7 +28,7 @@ Running **FLUX.2** locally is often GPU-memory bound. Common workarounds include
 
 ```bash
 # Clone the repository
-git clone https://github.com/YigitEkin/flux2-distributed-inference.git
+git clone git@github.com:YigitEkin/flux2-distributed-inference.git
 cd flux2-distributed-inference
 
 # Install dependencies
