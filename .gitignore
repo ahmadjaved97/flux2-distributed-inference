@@ -1,0 +1,9 @@
+# Logs
+logs/
+*.log
+
+# Shell scripts
+*.sh
+
+# Python bytecode caches
+__pycache__/
